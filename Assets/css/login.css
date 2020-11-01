@@ -1,8 +1,3 @@
-/*Body Background css*/
-body{
-    background: url(Assets/Background/Background\ Utama.jpg)repeat;
-    background-size: cover;
-}
 /*Kembali*/
 .kembali{
     margin: 30px 30px;
