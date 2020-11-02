@@ -1,29 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Masuk - Pesona Jember</title>
+    <title>Pesona Jember</title>
     <link rel="shorcut icon" href="Assets/Favicon/favicon.ico">
-    <link rel="stylesheet" href="Assets/css/login.css">
+    <link rel="stylesheet" href="Assets/css/main.css">
     <style>
-        Body{
-            background: url(Assets/Background/Background\ Utama.jpg)repeat;
+        header {
+            background: url(Assets/Background/Background\ Home.jpg);
             background-size: cover;
         }
     </style>
 </head>
 <body>
-    <a href="index.html"><img class="kembali" src="Assets/Img/Kembali.png"></img></a>
-    <img class="img" src="Assets/Img/Logo Login.png" width="200px"></img>
-    <div class="form">
-        <h2>MASUK</h2>
-        <form>
-            <input type="text" name="Email" placeholder="Email"></br></br>
-            <input type="password" name="Password" placeholder="Password"></br></br>
-            <a href="#"><button><b>MASUK</b></button></a></br>
-        </form>
-    </div>
-    <div class="daftar">
-        <p><i>Belum Punya Akun?  </i><i><b><a href="#">Daftar Sekarang!</a></i></b></p>
-    </div>
+    <header>
+        <img class="logo" src="Assets/img/Logo Home.png" width="100px">
+        <div class="tombolmasukdaftar">
+            <ul>
+                <li class="daftar"><a href="Daftar.html">Daftar</a></li>
+                <li class="masuk"><a href="Login.html">Masuk</a></li>
+            </ul>
+        </div>
+        <img class="judul" src="Assets/img/Logo.png" width="450px"></br>
+        <input class="searchbar" type="text" name="text" placeholder="Cari Tempat Liburan?"></br>
+    </header>
 </body>
 </html>
