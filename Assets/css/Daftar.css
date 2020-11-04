@@ -1,0 +1,49 @@
+/*Body Background css*/
+body{
+    padding: 0;
+    margin: 0;
+    background: url(PantaiPapupma.jpg)no-repeat;
+    background-size: cover;
+}
+/*Dafta form*/
+.form{
+    background-color: white;
+    position: relative;
+    max-width: 260px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 20px 0px 0px 520px;
+    padding: 10px 30px 30px 30px;
+    font-family: "SEGOE UI";
+    text-align: center;
+}
+.form h2{
+    font-family: 'segoe ui';
+    font-size: 25px;
+}
+.form input{
+    background-color: lightgrey;
+    box-sizing: border-box;
+    border: 0;
+    width: 90%;
+    border-radius: 10px;
+    padding: 12px;
+    font-family: 'segoe ui';
+    font-size: 14px;
+}
+.form button{
+    background-color: white;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #3399ff;
+    border: 1;
+    width: 90%;
+    border-radius: 10px;
+    padding: 9px;
+    font-family: 'segoe ui';
+    font-size: 14px;
+    color: #3399ff;
+}
+.form button:hover{
+    background-color: #3399ff;
+    color: white;
+    transition: all 0.5s;  
