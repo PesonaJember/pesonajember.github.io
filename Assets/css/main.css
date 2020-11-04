@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'segoe ui';
 }
 /*Atas*/
 .logo {
@@ -34,10 +35,17 @@
     border: 1px solid #3399ff;
     border-radius: 30px;
     padding: 5px 20px;
-    margin-right: 70px;
+    margin-right: 80px;
     font-family: 'segoe ui';
     text-decoration: none;
     color: white;
+    cursor: pointer;
+}
+.masuk a:hover {
+    background-color: #fff;
+    color: #3399ff;
+    border: 1px solid white;
+    transition: ease-in 0.5s; 
 }
 .daftar a{
     border: 1px solid white;
@@ -47,4 +55,49 @@
     font-family: 'segoe ui';
     text-decoration: none;
     color: white;
+    cursor: pointer;
+}
+.daftar a:hover {
+    background-color: #fff;
+    color: #3399ff;
+    border: 1px solid white;
+    transition: ease-in 0.5s; 
+}
+.lihatlainnya {
+    float: right;
+    list-style-type: none;
+    color: white;
+    margin-right: 10%;
+    margin-top: 7%;
+    font-size: 18px;
+}
+.lihatlainnya:active {
+    transition: all 1s;
+}
+.nama{
+    margin-top: 6%;
+    margin-left: 10%;
+    color: white;
+    font-size: 14px;
+}
+/*Bawah*/
+.footer {
+    background: #006a8a;
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+.footer p {
+    color: white;
+    text-align: center;
+}
+.footer ul {
+    text-align: center;
+}
+.footer ul li {
+    display: inline-block;
+    padding-bottom: 3%;
 }
