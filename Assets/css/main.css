@@ -3,6 +3,14 @@
     padding: 0;
     font-family: 'segoe ui';
 }
+body {
+    background: url(../Background/Body\ Home.jpg);
+    background-size: cover;
+}
+header {
+    background: url(../Background/Background\ Home.jpg);
+    background-size: cover;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -25,6 +33,14 @@ html {
     border-radius: 30px;
     background: rgb(0, 0, 0, 0);
 }
+.searchbar:hover {
+    background: rgba(255, 255, 255, 0.788);
+    transition: all 0.4s;
+}
+.searchbar:focus {
+    background: rgba(255, 255, 255);
+    outline: none;
+}
 .tombolmasukdaftar {
     float: right;
     list-style-type: none;
@@ -42,7 +58,6 @@ html {
     font-family: 'segoe ui';
     text-decoration: none;
     color: white;
-    cursor: pointer;
 }
 .masuk a:hover {
     background-color: #fff;
@@ -58,7 +73,6 @@ html {
     font-family: 'segoe ui';
     text-decoration: none;
     color: white;
-    cursor: pointer;
 }
 .daftar a:hover {
     background-color: #fff;
