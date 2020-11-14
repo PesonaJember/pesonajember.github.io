@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;    
+    font-family: 'segoe ui';
+}
+body {
+    background: url(../Background/Body\ Home.jpg);
+    background-size: cover;
+}
+/*Atas*/
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    border-bottom: 5px solid #3399ff;
+}    
+.logo{
+    margin-left: 47%;
+}
+.Back{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 15px;
+    color: #006a8a;
+}
+.tombolmasukdaftar {
+    float: right;
+    list-style-type: none;
+}
+.tombolmasukdaftar li {
+    display: inline-block;
+    margin-top: 9%;
+}
+.masuk a{
+    background: #3399ff;
+    border: 1px solid #3399ff;
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin-right: 80px;
+    font-family: 'segoe ui';
+    text-decoration: none;
+    color: white;
+}
+.masuk a:hover {
+    background-color: #006a8a;
+    border: 1px solid white;
+    transition: ease-in 0.4s; 
+}
+.daftar a{
+    border: 1px solid #3399ff;
+    border-radius: 30px;
+    margin-right: 10px;
+    padding: 5px 20px;
+    font-family: 'segoe ui';
+    text-decoration: none;
+    color: #3399ff;
+}
+.daftar a:hover {
+    background-color: #fff;
+    color: #006a8a;
+    border: 1px solid #006a8a;
+    transition: ease-in 0.4s; 
+}
+header {
+    background: url(../Background/Rembangan.jpg);
+    background-size: cover;
+}
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+/*Isi*/
+.Tengah {
+    text-align: center;
+}
+.Tengah h3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    background: #3399ff;
+    border: 1px solid #3399ff;
+    border-radius: 30px;
+    padding: 5px 20px;
+    color: white;
+}
+.Tengah p {
+    margin: 10px 200px 20px 200px;
+    font-size: 20px;
+    text-align: center;
+}
+.Tengah img {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 1000px;
+    border: 10px solid #3399ff;
+    border-radius: 20px;
+}
+.Tengah h2 {
+    position: absolute;
+    margin-left: 41%;
+    margin-top: -120px;
+    margin-bottom: 50px;
+    padding: 5px 20px;
+    width: 200px;
+    background: white;
+    border: 1px solid #3399ff;
+    border-radius: 30px;
+    color: #3399ff;
+}
+.Tengah h2:hover {
+    background-color: #3399ff;
+    color: white;
+    transition: all 0.4s;
+}
+/*Bawah*/
+.footer {
+    background: #006a8a;
+}
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+.footer p {
+    color: white;
+    text-align: center;
+}
+.footer ul {
+    text-align: center;
+}
+.footer ul li {
+    display: inline-block;
+    padding-bottom: 3%;
+}
