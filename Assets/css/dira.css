@@ -90,7 +90,7 @@ header img{
 }
 .Tengah p {
     margin: 10px 200px 20px 200px;
-    font-size: 20px;
+    font-size: 20vw;
     text-align: center;
 }
 .Tengah img {
@@ -141,7 +141,7 @@ header img{
 @media screen and (max-width: 960px) {
 .Tengah p {
 margin: 10px 10px 20px 10px;
-font-size: 5px;
+font-size: 10px;
 text-align: center;
     }
 }
