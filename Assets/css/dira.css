@@ -154,20 +154,24 @@ text-align: center;
     color: #006a8a;
     }
 .daftar a{
+    position: absolute;
     border: 1px solid #3399ff;
     border-radius: 25px;
-    margin-right: 5px;
+    right: 90px;
+    top: 20px;
     padding: 5px 10px;
     font-family: 'segoe ui';
     text-decoration: none;
     color: #3399ff;
     }
 .masuk a{
+    position: absolute;
     background: #3399ff;
     border: 1px solid #3399ff;
     border-radius: 25px;
     padding: 5px 10px;
-    margin-right: 5px;
+    right: 90px;
+    top: 20px;
     font-family: 'segoe ui';
     text-decoration: none;
     color: white;

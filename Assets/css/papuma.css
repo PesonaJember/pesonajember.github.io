@@ -139,7 +139,7 @@ header img{
     padding-bottom: 3%;
 }
 @media screen and (max-width: 960px) {
-    .Tengah p {
+.Tengah p {
     margin: 10px 10px 20px 10px;
     font-size: 10px;
     text-align: center;
@@ -154,18 +154,23 @@ header img{
         color: #006a8a;
         }
     .daftar a{
+        position: absolute;
         border: 1px solid #3399ff;
         border-radius: 25px;
-        margin-right: 5px;
+        right: 90px;
+        top: 20px;
         padding: 5px 10px;
         font-family: 'segoe ui';
         text-decoration: none;
         color: #3399ff;
         }
     .masuk a{
+        position: absolute;
         background: #3399ff;
         border: 1px solid #3399ff;
         border-radius: 25px;
+        top: 20px;
+        right: 15px;
         padding: 5px 10px;
         margin-right: 5px;
         font-family: 'segoe ui';
