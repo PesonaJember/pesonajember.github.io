@@ -157,7 +157,7 @@ header img{
         position: absolute;
         border: 1px solid #3399ff;
         border-radius: 25px;
-        right: 90px;
+        right: 5px;
         top: 20px;
         padding: 5px 10px;
         font-family: 'segoe ui';
@@ -169,8 +169,8 @@ header img{
         background: #3399ff;
         border: 1px solid #3399ff;
         border-radius: 25px;
-        top: 20px;
         right: 15px;
+        top: 20px;
         padding: 5px 10px;
         margin-right: 5px;
         font-family: 'segoe ui';
